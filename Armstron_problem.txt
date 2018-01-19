@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+    </head>
+    <body>
+       
+        <script>
+        var a=371;
+        var rem;
+        var sum=0;
+        console.log("While loop-> example 4:Armstrong number.");
+        for(var i=a;i>=0;i=parseInt(a/10))
+            {rem=i%10;
+             
+             sum+=Math.pow(rem,3);
+             
+            
+            }
+            console.log(sum);
+       if(sum===a){
+            console.log("Armstrong number");
+        }
+        else
+        {
+            console.log("Not an Armstrong number");
+        }
+        </script>
+    </body>
+</html>
